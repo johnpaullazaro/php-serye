@@ -16,12 +16,12 @@
     // }
     // while($x < 10)
 
-    // $person = [ 
-    //     "firstname" => "jp",
-    //     "age" => 22
-    // ];    
+    $person = [ 
+        "firstname" => "jp",
+        "age" => 22
+    ];    
 
-    // foreach($person as $key => $value ) {
-    //     echo $key."-".$value."<br>";
-    // }
+    foreach($person as $key => $value ) {
+        echo $key."-".$value."<br>";
+    }
 ?>
