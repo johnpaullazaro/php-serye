@@ -1,33 +1,31 @@
 <?php
-     
+    
+    //Comparison Operators
     // <, >, <= >=, ==, ===,
-    // != , !== 
+    // != , !==  
+    
 
-    $age = 20;
-    // if($age >= 40){
-    //     echo "Old";
-    // }else {
-    //     echo "Young"; 
-    //  }
-     
-    echo ($age >= 40) ? "Old" : "Young.";
+    // Logical Conditions
 
-
-
-
-    // $favcolor = "red";
-
-    // switch ($favcolor) {
-    // case "red":
-    //     echo "Your favorite color is red!";
-    //     break;
-    // case "blue":
-    //     echo "Your favorite color is blue!";
-    //     break;
-    // case "green":
-    //     echo "Your favorite color is green!";
-    //     break;
-    // default:
-    //     echo "Your favorite color is neither red, blue, nor green!";
+    // 1. If else  
+    // Syntax : if(true) 
+    // { do if true } else {
+    //    do if false
     // }
+        
+    // 2. Ternary
+    // ($age >= 40) ? "Old" : "Young.";
+
+ 
+    // 3. Switch 
+    // $birthmonth = "september"; 
+    // switch ($birthmonth) {
+    // case "september":
+    //     echo "Your favorite color is red!";
+    //     break; 
+    // default:
+    //     echo "";
+    // }
+
+
 ?>

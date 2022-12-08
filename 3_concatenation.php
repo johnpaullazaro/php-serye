@@ -1,9 +1,10 @@
 <?php
-     
-     $name = "JP";
-     $age = 22;
+      
+    //String Concatenation 
+    // use "." 
+    // use string literals ${name} 
+    
 
-    // echo $name." is ".$age." years old";
-    // echo "${name} is ${age} years old.";
 
-?>
+
+?>  
