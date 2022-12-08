@@ -1,5 +1,6 @@
 <?php
      
+    $studentid = "BSIT-2022-001";
     
     // strlen($string)
     // strrev($string)
