@@ -22,8 +22,8 @@
     
     //7. Delete specific
     //unset($arrayname[0]);
-
-
+ 
     //8. Array Combine
-    array_merge()
+    //array_merge()
+    
 ?>
