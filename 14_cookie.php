@@ -1,17 +1,32 @@
 <?php
  
-  //COOKIE
+  // COOKIE
   // information stored in browser
 
   //Creating Cookie
   //Syntax 
   //setcookie('name','JP',time() + 86400); //1 Day = 86400
+  
+  //setcookie('theme','dark',time() + 86400);
+   
 
-   //isset($_COOKIE['name'])
-   //Accessbilty 
-   // $_COOKIE[''];
+
+  //isset($_COOKIE['name'])
+  //Accessbilty 
+  
+   if(isset($_COOKIE['theme'])){ 
+      if($_COOKIE['theme']=='dark')
+      {
+         echo "<style>body 
+         {background-color:black;color:white;}</style>"; 
+      } 
+   };
 
 
-   //Delete Cookie
-   //setcookie('name','',time() - 86400)
+
+  // $_COOKIE[''];
+ 
+  
+  //Delete Cookie
+    
 ?>

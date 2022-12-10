@@ -1,6 +1,6 @@
 <?php
  
-  //Session
+  // Session
   // behave like variables which is accessible anywhere
   // Unlike Cookies sessions are stored on the server
   
