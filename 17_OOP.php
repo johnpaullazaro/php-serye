@@ -32,6 +32,7 @@
     $hopie->name = "Hopie";
 
     echo $hopie->getName();
+    echo $hopie->getName();
 
     
   //Instantiate
